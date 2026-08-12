@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: realtime-1v1-fighter
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /
+    autoDeploy: true
