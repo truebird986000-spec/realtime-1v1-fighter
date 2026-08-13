@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node --check server.js && node --check public/game.js && node --check public/team-mode.js"
+    "test": "node --check server.js && node --check public/game.js && node --check public/team-mode.js && node --check public/combat-controls.js"
   },
   "engines": {
     "node": ">=18"
